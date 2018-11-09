@@ -1,0 +1,24 @@
+body {
+  background-color:skyblue;
+  margin: 10%;
+}
+
+h2 {
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+p{
+  color: white;
+  font-size: 18;
+}
+
+.staff{
+  float: left;
+  margin:auto;
+  height: auto;
+  width: 25%;
+}
