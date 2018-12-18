@@ -5,20 +5,52 @@ body {
 
 h2 {
   color: white;
+  font-size: 35;
+}
+
+h3{
+  color: white;
+  font-size: 25;
 }
 
 h1{
   color: white;
+  font-size: 35;
 }
 
 p{
-  color: white;
-  font-size: 18;
+  color: black;
+  font-size: 28;
 }
 
-.staff{
-  float: left;
-  margin:auto;
-  height: auto;
-  width: 25%;
+.product-img{
+width: 350px;
+height: 300px;
+}
+
+.shadow {
+    display: inline-block;
+    box-shadow: 5px 5px #00000099;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid black;
+    color: black;
+    animation: zoomIn 5s;
+    transition: transform .2s;
+}
+
+.shadow:hover{
+  transform: scale(1.2);
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
